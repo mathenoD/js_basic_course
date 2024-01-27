@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DOM Manipulation Example</title>
+  <style>
+    .highlight {
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+
+  <p id="demo" class="highlight">Hello, World!</p>
+
+  <script>
+    let paragraph = document.getElementById('demo');
+    // paragraph.classList.add('highlight');
+     // Adding a class
+    paragraph.classList.remove('highlight'); // Removing a class
+  </script>
+
+</body>
+</html>

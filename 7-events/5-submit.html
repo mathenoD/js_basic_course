@@ -1,0 +1,21 @@
+<form id="myForm" action="">
+    <input type="text" name="username" id="username" placeholder="Username">
+    <input type="password" name="password" id="password" placeholder="Password">
+    <button type="submit">Submit</button>
+</form>
+
+<script>
+    document.getElementById('myForm').addEventListener('submit', function (event) {
+        event.preventDefault(); // Prevents the default form submission
+        const input = document.getElementById("username");
+        const inputValue = input.value;
+        console.log(inputValue);
+        if (inputValue == "") {
+            alert('Username must be filled!');
+
+        } else {
+
+            alert('Form submitted!');
+        }
+    });
+</script>

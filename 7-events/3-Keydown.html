@@ -1,0 +1,16 @@
+<input type="text" id="myInput" placeholder="Type something">
+
+<script>
+  document.getElementById('myInput').addEventListener('keydown', function(event) {
+    console.log('Key down:', event.key);
+  });
+  
+  document.getElementById('myInput').addEventListener('keypress', function(event) {
+    console.log('Key pressed:', event.key);
+  });
+
+  document.getElementById('myInput').addEventListener('keyup', function(event) {
+    console.log('Key up:', event.key);
+  });
+  
+</script>

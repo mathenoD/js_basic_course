@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DOM Manipulation Example</title>
+</head>
+<body>
+
+  <ul class="list">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+  <ul class="list">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+  <ul class="list">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+  <ul class="list">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+
+  <p id="demo">Hello, World!</p>
+
+  <script>
+    let items = document.getElementsByClassName('list');
+    items[3].style.color = 'red';
+  </script>
+
+</body>
+</html>

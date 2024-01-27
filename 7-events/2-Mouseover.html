@@ -1,0 +1,13 @@
+<div id="myDiv" style="width: 100px; height: 100px; background-color: lightblue;"></div>
+
+<script>
+  let myDiv = document.getElementById('myDiv');
+
+  myDiv.addEventListener('mouseover', function() {
+    this.style.backgroundColor = 'lightgreen';
+  });
+
+  myDiv.addEventListener('mouseout', function() {
+    this.style.backgroundColor = 'lightblue';
+  });
+</script>
